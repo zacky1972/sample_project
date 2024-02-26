@@ -28,7 +28,7 @@ defmodule SampleProject.MixProject do
       {:dialyxir, "~> 1.4", only: [:dev, :test], runtime: false},
       {:nx, "~> 0.5"},
       {:axon, "~> 0.6"},
-      {:bumblebee, "~> 0.4.2"},
+      {:bumblebee, "~> 0.5.3"},
       {:exla, ">= 0.0.0"}
     ]
   end

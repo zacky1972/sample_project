@@ -22,7 +22,7 @@ jobs:
         elixir-version: ['1.15.7', '1.16.0-rc.0']
 
     steps:
-    - uses: actions/checkout@v6
+    - uses: actions/checkout@v7
     - name: Set up Elixir
       uses: erlef/setup-beam@fc68ffb90438ef2936bbb3251622353b3dcb2f93 # v1.24.0
       with:
